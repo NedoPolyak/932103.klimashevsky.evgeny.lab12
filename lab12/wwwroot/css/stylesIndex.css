@@ -1,0 +1,40 @@
+﻿.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    align-self: center;
+}
+
+.buttonsContainer {
+    margin-top:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.buttonsContainer_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: all 0.5s ease-out;
+}
+
+    .buttonsContainer_button:hover {
+        background-color: lightgray;
+        color:black;
+        box-shadow: 0px 0px 10px lightgray;
+    }
